@@ -1,3 +1,4 @@
+import Hero from './components/Hero'
 import MobileNavbar from './components/Navbars/MobileNavbar'
 import Navbar from './components/Navbars/Navbar'
 
@@ -6,6 +7,7 @@ function App() {
     <main>
       <Navbar />
       <MobileNavbar />
+      <Hero />
     </main>
   )
 }
